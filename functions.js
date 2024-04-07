@@ -68,15 +68,12 @@ function numsoperations(){
 
     // Write a JavaScript function that takes a string as input and reverses it using a while loop. The function should return the reversed string.
 
-    function reverseit(){
-    
-      let y = y.split("").reverse().join('');
+    function reverseit(word){
+   while(word){
 
-      while(y){
-        console.log(y);
-        break;
+   break;
+
+   }
+   return word.split("").reverse().join('')
       }
-
-    }
-
-    reverseit()
+console.log(reverseit("Hello"))
